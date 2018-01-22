@@ -10,9 +10,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
 	<link href="css/timeline.css" rel="stylesheet">
+	
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -79,7 +81,7 @@
 				<div class="col-lg-7 col-md-6 wow bounceInRight" data-wow-delay="0.5s" >
                 </div>
                 <div class="col-lg-5 col-md-6 wow bounceInLeft" data-wow-delay="0.5s">
-                    <h1>TRINFY RACKETEERS</h1>
+				    <a class="link link--ilin" href="#"><span class="span1">TRINFY</span>&nbsp;<span class="span2">RACKETEERS</span></a>
                     <p>[TRINFY RACKETEERS is the Badminton Club of Trivandrum INFOSYS.The Club consists of more than 300 members.
 					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
 					This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.This is a dummy place holder.
@@ -102,20 +104,69 @@
             <h2 class="wow fadeInUp">Tournaments</h2>
             <div id="row">
                 <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay=".6s">
-                    <div class="photo1"></div>
-                    <h4>SMASH IT</h4>
+					<section class="cd-section">
+					<div class="photo1"></div>
+					<div class="cd-modal-action">
+						<a href="#0" class="btn" data-type="modal-trigger">SMASH IT</a>
+						<span class="cd-modal-bg"></span>
+					</div> 
+					<div class="cd-modal">
+						<div class="cd-modal-content">
+						   <table>
+						    <tr>
+							<td>Category</td>
+							<td>Winners</td>
+							</tr>
+						   </table>
+						</div>
+					</div>
+					<a href="#0" class="cd-modal-close">Close</a>
+					</section>
+					<section class="cd-section">
 					<div class="photo2"></div>
-                    <h4>SPIRIT</h4>
+					<div class="cd-modal-action">
+						<a href="#0" class="btn" data-type="modal-trigger">SPIRIT</a>
+						<span class="cd-modal-bg"></span>
+					</div> 
+					<div class="cd-modal">
+						<div class="cd-modal-content">
+						   Binu James New
+						</div>
+					</div>
+					<a href="#0" class="cd-modal-close">Close</a>
+					</section>
                 </div>
                 <div class="col-lg-3 col-md-3 wow fadeInLeft">    
                 </div>
                 <div class="col-lg-3 col-md-3 wow fadeInLeft">    
                 </div>
                 <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+					<section class="cd-section">
 					<div class="photo3"></div>
-                    <h4>TECHNOPARK TOURNAMENT</h4>
-                    <div class="photo4"></div>
-                    <h4>INTER DC TOURNAMENT</h4>
+					<div class="cd-modal-action">
+						<a href="#0" class="btn" data-type="modal-trigger">TECHNOPARK TOURNAMENT</a>
+						<span class="cd-modal-bg"></span>
+					</div> 
+					<div class="cd-modal">
+						<div class="cd-modal-content">
+						   Binu James New
+						</div>
+					</div>
+					<a href="#0" class="cd-modal-close">Close</a>
+					</section>
+					<section class="cd-section">
+					<div class="photo4"></div>
+					<div class="cd-modal-action">
+						<a href="#0" class="btn" data-type="modal-trigger">INTER DC TOURNAMENT</a>
+						<span class="cd-modal-bg"></span>
+					</div> 
+					<div class="cd-modal">
+						<div class="cd-modal-content">
+						   Binu James New
+						</div>
+					</div>
+					<a href="#0" class="cd-modal-close">Close</a>
+					</section>
                 </div>            
             </div>
         </div>
@@ -323,6 +374,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/velocity.min.js"></script>
     <script>
     new WOW().init();
     </script>
